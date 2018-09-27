@@ -1,0 +1,300 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 102500762,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Validate the browser",
+            "match": {
+              "location": "stepDefination.validate_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 195010,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The browser is triggered",
+            "match": {
+              "location": "stepDefination.the_browser_is_triggered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 182693,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify that browser is started",
+            "match": {
+              "location": "stepDefination.verify_that_browser_is_started()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 470897,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeValidation()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Home page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 212663,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User is on net banking landing page",
+            "match": {
+              "location": "stepDefination.user_is_on_net_banking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3444076,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User logins into application with username as \"mehta\" and password as \"4321\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mehta",
+                  "offset": 47
+                },
+                {
+                  "val": "4321",
+                  "offset": 71
+                }
+              ],
+              "location": "stepDefination.user_logins_into_application_with_username_as_something_and_password_as_something(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 174893,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Homepage is displayed",
+            "match": {
+              "location": "stepDefination.homepage_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 290667,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Cards displayed as \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "false",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefination.cards_displayed_as(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@MobileTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 174893,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Validate the browser",
+            "match": {
+              "location": "stepDefination.validate_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 139176,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The browser is triggered",
+            "match": {
+              "location": "stepDefination.the_browser_is_triggered()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 178998,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify that browser is started",
+            "match": {
+              "location": "stepDefination.verify_that_browser_is_started()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 85393,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeValidation()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Home page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 181051,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User is on net banking landing page",
+            "match": {
+              "location": "stepDefination.user_is_on_net_banking_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3515100,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User sign up with following details",
+            "match": {
+              "location": "stepDefination.user_sign_up_with_following_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "krupa",
+                  "mehta",
+                  "33",
+                  "Plano",
+                  "TX",
+                  "USA",
+                  "9999999"
+                ],
+                "line": 27
+              },
+              {
+                "cells": [
+                  "vineet",
+                  "kamdar",
+                  "34",
+                  "Pune",
+                  "MH",
+                  "IN",
+                  "8886767"
+                ],
+                "line": 28
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 296415,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Homepage is displayed",
+            "match": {
+              "location": "stepDefination.homepage_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 141639,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Cards displayed as \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "false",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefination.cards_displayed_as(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@MobileTest"
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]

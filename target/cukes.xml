@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.112185">
+<testcase classname="Application Login" name="Home page default login" time="0.107472">
+<system-out><![CDATA[Given Validate the browser..................................................passed
+When The browser is triggered...............................................passed
+Then Verify that browser is started.........................................passed
+Given User is on net banking landing page...................................passed
+When User logins into application with username as "mehta" and password as "4321".passed
+Then Homepage is displayed..................................................passed
+And Cards displayed as "false"..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Home page default login" time="0.004713">
+<system-out><![CDATA[Given Validate the browser..................................................passed
+When The browser is triggered...............................................passed
+Then Verify that browser is started.........................................passed
+Given User is on net banking landing page...................................passed
+When User sign up with following details....................................passed
+Then Homepage is displayed..................................................passed
+And Cards displayed as "false"..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
