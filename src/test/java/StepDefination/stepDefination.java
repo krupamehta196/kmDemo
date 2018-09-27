@@ -17,6 +17,7 @@ public class stepDefination {
 	@Given("^Validate the browser$")
 	public void validate_the_browser() throws Throwable {
 		System.out.println("Inside Given of Background");
+		System.out.println("Updating for git");
 	}
 
 	@When("^The browser is triggered$")
